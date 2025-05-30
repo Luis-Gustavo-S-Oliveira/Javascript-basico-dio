@@ -17,7 +17,10 @@ function classificarimc (imc){
                     }  
 }
 
+function main (){
 const imc = calcularImc(80,1.30);
 
 console.log(imc.toFixed(2))
 console.log(classificarimc(imc))
+}
+main();
